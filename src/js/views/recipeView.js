@@ -1,8 +1,9 @@
 import icons from 'url:../../img/icons.svg';
-// import fracty from fracty
+// import { fracty }  from "node_modules/fractyfracty"
 // import Fraction from 'fractional';
-import Fraction from fractional
 import View from './View.js';
+// import { Fraction } from 'fractional';
+// var fracty = require('fracty');
 
 class RecipeView extends View {
     _parentElement = document.querySelector('.recipe');
@@ -103,7 +104,7 @@ class RecipeView extends View {
                         </svg>
                     <div class="recipe__quantity">${
                         ing.quantity
-                            ? new Fraction.Fraction(ing.quantity).toString()
+                            ? ing.quantity.toString()
                             : ''
                     }</div>
                     <div class="recipe__description">
