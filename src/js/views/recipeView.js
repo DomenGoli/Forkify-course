@@ -1,4 +1,4 @@
-import icons from 'url:../../img/icons.svg';
+import icons from 'url:../img/icons.svg';
 // import { fracty }  from "node_modules/fractyfracty"
 // import Fraction from 'fractional';
 import View from './View.js';
