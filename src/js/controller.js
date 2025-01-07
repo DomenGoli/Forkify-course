@@ -149,3 +149,10 @@ const init = function() {
     addRecipeView.addHandlerUpload(controlAddRecipe)
 }
 init()
+
+
+// "devDependencies": {
+//     "@parcel/transformer-sass": "^2.13.3",
+//     "parcel": "^2.13.3",
+//     "svgo": "^3.3.2"
+//   },
