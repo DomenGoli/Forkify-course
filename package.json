@@ -10,8 +10,9 @@
   "author": "Domen Goli",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0-beta.1",
-    "sass": "^1.26.10"
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.0.0-nightly.447",
+    "svgo": "^3.3.2"
   },
   "dependencies": {
     "core-js": "^3.40.0",
@@ -20,4 +21,3 @@
     "regenerator-runtime": "^0.14.1"
   }
 }
-
