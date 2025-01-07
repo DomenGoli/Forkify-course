@@ -7,6 +7,8 @@ import bookmarksView from "./views/bookmarksView.js";
 import paginationView from "./views/paginationView.js";
 import addRecipeView from "./views/addRecipeView.js";
 
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
 // NEW API URL (instead of the one shown in the video)
 // https://forkify-api.jonas.io
 
